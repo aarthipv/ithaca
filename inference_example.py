@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Example for running inference. See also colab."""
-
+import os
+os.environ['JAX_PLATFORM_NAME'] = 'cpu'
 import functools
 import pickle
 
